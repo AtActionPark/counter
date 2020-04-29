@@ -2,7 +2,9 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url("../asset/background2.jpg");
+    /* background-image: url("../asset/background2.jpg");*/
+
+    background-image: url("https://st2.depositphotos.com/5758082/11905/v/950/depositphotos_119059272-stock-illustration-vector-fried-chicken-legs-seamless.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
