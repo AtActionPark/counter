@@ -1,0 +1,36 @@
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100%;
+    font-size: 8rem;
+    font-family:cursive;
+}
+
+.left, .right {
+    text-align:center;
+    width:50%;
+}
+
+.name{
+    font-size: 6rem;
+    color:#0000D8;
+    padding:1rem;
+}
+.counter{
+    font-weight: bold;
+    color:#CF0000;
+    padding:1rem;
+
+}
+
+body {
+    margin:0;
+    width:100vw;
+    height:100vh;
+    background-image: url("../asset/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
