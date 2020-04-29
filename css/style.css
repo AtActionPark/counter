@@ -40,7 +40,7 @@ body {
 }
 
 .animate{
-    animation: updateNumber 1s ease-out;
+    animation: updateNumber .5s ease-out;
 }
 
 @keyframes updateNumber {

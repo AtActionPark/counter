@@ -9,13 +9,25 @@ window.addEventListener('keydown', (e) => {
             break;
         case 50:
             updateDom('rightCounter',rightScore+=1)
-        break;
+            break;
         case 52:
             updateDom('leftCounter', leftScore-=1)
-        break;
+            break;
         case 53:
              updateDom('rightCounter', rightScore-=1)
-        break;
+            break;
+        case 97:
+            updateDom('leftCounter', leftScore += 1)
+            break;
+        case 98:
+            updateDom('rightCounter', rightScore += 1)
+            break;
+        case 100:
+            updateDom('leftCounter', leftScore -= 1)
+            break;
+        case 101:
+            updateDom('rightCounter', rightScore -= 1)
+            break;
         default:
             break;
     }
