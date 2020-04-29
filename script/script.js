@@ -24,4 +24,7 @@ window.addEventListener('keydown', (e) => {
 const updateDom = (id, newValue) => {
     const el = document.getElementById(id);
     el.innerHTML = newValue;
+    el.classList.add('animate')
+    const newone = el.cloneNode(true);
+    el.parentNode.replaceChild(newone, el);
 }

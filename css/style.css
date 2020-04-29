@@ -1,15 +1,28 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../asset/background2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden
+}
+
 .container{
     display:flex;
     align-items: center;
     justify-content: space-between;
     height:100%;
-    font-size: 8rem;
+    font-size: 12rem;
     font-family:cursive;
 }
 
 .left, .right {
     text-align:center;
     width:50%;
+    max-width: 50%;
+    font-weight: bold;
 }
 
 .name{
@@ -17,20 +30,23 @@
     color:#0000D8;
     padding:1rem;
 }
+
 .counter{
-    font-weight: bold;
     color:#CF0000;
     padding:1rem;
 
 }
 
-body {
-    margin:0;
-    width:100vw;
-    height:100vh;
-    background-image: url("../asset/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.animate{
+    animation: updateNumber 1s ease-out;
+}
+
+@keyframes updateNumber {
+    25% {
+        transform: rotate(45deg);
+    }
+    75% {
+        transform: rotate(-45deg);
+    }
 }
 
